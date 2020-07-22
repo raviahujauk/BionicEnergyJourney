@@ -6,12 +6,30 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class energyJourneyBionicStepDef {
 
     //For windown with head browser
-    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
-    private WebDriver driver = new ChromeDriver();
+    //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    //private WebDriver driver = new ChromeDriver();
+
+    //For Linux + Headless browser
+//    /*
+    static{
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/Linux_Driver/chromedriver");
+    }
+    private ChromeOptions options = new ChromeOptions();
+    private WebDriver driver = new ChromeDriver(options.addArguments(
+            "--headless",
+            "window-size=1280x800",
+            "no-sandbox",
+            "–disable-dev-shm-usage",
+            "start-maximized",
+            "--disable-gpu",
+            "--ignore-certificate-errors",
+            "--disable-setuid-sandbox"));
+//    */
 
 
     private bionicEnergyJourneyLandingPage bejlp = new bionicEnergyJourneyLandingPage(driver);

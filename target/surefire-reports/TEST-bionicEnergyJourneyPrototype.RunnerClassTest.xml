@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="bionicEnergyJourneyPrototype.RunnerClassTest" time="42.152" tests="2" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\bin"/>
+    <property name="java.vm.version" value="25.212-b4"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ravi.ahuja\IdeaProjects\MavenEnergyJourneyBionic"/>
+    <property name="java.vendor.url" value="https://www.jetbrains.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ravi.ahuja\IdeaProjects\MavenEnergyJourneyBionic"/>
+    <property name="java.runtime.version" value="1.8.0_212-release-1586-b4"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RAVI~1.AHU\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ravi.ahuja\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\\bin\server;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Airtame;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\ravi.ahuja\Maven\bin;C:\Users\ravi.ahuja\Maven\bin;C:\Program Files\PuTTY\;C:\Users\ravi.ahuja\AppData\Local\Microsoft\WindowsApps;C:\Users\ravi.ahuja\AppData\Local\GitHubDesktop\bin;C:\Users\ravi.ahuja\AppData\Local\Programs\Git\cmd;C:\Users\ravi.ahuja\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="C:\Users\ravi.ahuja\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\ravi.ahuja\Maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ravi.ahuja"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ravi.Ahuja"/>
+    <property name="java.class.path" value="C:\Users\ravi.ahuja\Maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_212-release"/>
+    <property name="java.ext.dirs" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\resources.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\sunrsasign.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\jsse.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\jce.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\charsets.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\lib\jfr.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\jre64\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="JetBrains s.r.o"/>
+    <property name="maven.home" value="C:\Users\ravi.ahuja\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="https://youtrack.jetbrains.com"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Verify bionic electric journey" classname="Verify UKP site scenarios" time="21.191">
+    <error message="Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11419/status] to be available after 20002 ms
+Caused by: java.util.concurrent.TimeoutException
+</error>
+    <system-out><![CDATA[Feature: Verify UKP site scenarios
+  As a user
+  I navigate to UKP QA site
+  So that regression test pass successfully
+
+  Scenario Outline: Verify bionic electric journey &amp#27;[90m# src/test/resources/energyJourney-bionic.feature:6&amp#27;[0m
+    &amp#27;[36mGiven I navigate to bionic energy journey landing page with "<url>"&amp#27;[0m
+    &amp#27;[36mWhen I enter postcode "<postcode>"&amp#27;[0m
+    &amp#27;[36mAnd I click Start Quote&amp#27;[0m
+    &amp#27;[36mAnd I enter "<search-address>" on search field&amp#27;[0m
+    &amp#27;[36mAnd click on the address contains "<search-address>"&amp#27;[0m
+    &amp#27;[36mAnd I enter Business Name "<business-name>"&amp#27;[0m
+    &amp#27;[36mAnd I click Next from business name page&amp#27;[0m
+    &amp#27;[36mAnd I click on Electricity button&amp#27;[0m
+    &amp#27;[36mAnd I click Yes from industry data agreement page&amp#27;[0m
+    &amp#27;[36mAnd I click on Nex Step button&amp#27;[0m
+    &amp#27;[36mAnd I click I am not sure option&amp#27;[0m
+    &amp#27;[36mAnd I click Schedule for later (if on chat page)&amp#27;[0m
+    &amp#27;[36mAnd I enter full name "<full-name>"&amp#27;[0m
+    &amp#27;[36mAnd I enter email address "<email>"&amp#27;[0m
+    &amp#27;[36mAnd I enter phone number "<phone>"&amp#27;[0m
+    &amp#27;[36mAnd I click Schedule call button&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: Verify bionic electric journey                                                                                                                   &amp#27;[90m# src/test/resources/energyJourney-bionic.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI navigate to bionic energy journey landing page with "&amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com&amp#27;[0m&amp#27;[31m"&amp#27;[0m &amp#27;[90m# energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
+	... 33 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.<init>(energyJourneyBionicStepDef.java:23)
+	... 38 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11419/status] to be available after 20002 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+	... 47 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 48 more
+&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter postcode "&amp#27;[0m&amp#27;[36m&amp#27;[1mKT64DU&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                                   &amp#27;[90m# energyJourneyBionicStepDef.i_enter_postcode(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Start Quote&amp#27;[0m                                                                                                                                          &amp#27;[90m# energyJourneyBionicStepDef.i_click_Start_Quote()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1mFredericks&amp#27;[0m&amp#27;[36m" on search field&amp#27;[0m                                                                                                                         &amp#27;[90m# energyJourneyBionicStepDef.i_enter_on_search_field(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on the address contains "&amp#27;[0m&amp#27;[36m&amp#27;[1mFredericks&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                   &amp#27;[90m# energyJourneyBionicStepDef.click_on_the_address_contains(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter Business Name "&amp#27;[0m&amp#27;[36m&amp#27;[1mJeevat LTD&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                           &amp#27;[90m# energyJourneyBionicStepDef.i_enter_Business_Name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Next from business name page&amp#27;[0m                                                                                                                         &amp#27;[90m# energyJourneyBionicStepDef.i_click_Next()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Electricity button&amp#27;[0m                                                                                                                                &amp#27;[90m# energyJourneyBionicStepDef.i_click_on_Electricity_button()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Yes from industry data agreement page&amp#27;[0m                                                                                                                &amp#27;[90m# energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Nex Step button&amp#27;[0m                                                                                                                                   &amp#27;[90m# energyJourneyBionicStepDef.i_click_on()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click I am not sure option&amp#27;[0m                                                                                                                                 &amp#27;[90m# energyJourneyBionicStepDef.click_i_am_not_sure()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Schedule for later (if on chat page)&amp#27;[0m                                                                                                                 &amp#27;[90m# energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter full name "&amp#27;[0m&amp#27;[36m&amp#27;[1mRavi Ahuja&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                               &amp#27;[90m# energyJourneyBionicStepDef.i_enter_full_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter email address "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest@test.test&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                       &amp#27;[90m# energyJourneyBionicStepDef.i_enter_email_address(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter phone number "&amp#27;[0m&amp#27;[36m&amp#27;[1m07555555555&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                           &amp#27;[90m# energyJourneyBionicStepDef.i_enter_phone_number(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Schedule call button&amp#27;[0m                                                                                                                                 &amp#27;[90m# energyJourneyBionicStepDef.clickscheduleCall()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jul 22, 2020 11:16:54 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\ravi.ahuja\IdeaProjects\MavenEnergyJourneyBionic\src\main\resources\Linux_Driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+  <testcase name="Verify bionic electric journey" classname="Verify UKP site scenarios" time="20.067">
+    <error message="Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:31725/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+</error>
+    <system-out><![CDATA[
+  Scenario Outline: Verify bionic electric journey                                                                                      &amp#27;[90m# src/test/resources/energyJourney-bionic.feature:27&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI navigate to bionic energy journey landing page with "&amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/&amp#27;[0m&amp#27;[31m"&amp#27;[0m &amp#27;[90m# energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)&amp#27;[0m
+      &amp#27;[31mcucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:47)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.getInstance(DefaultJavaObjectFactory.java:33)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at cucumber.runtime.java.DefaultJavaObjectFactory.cacheNewInstance(DefaultJavaObjectFactory.java:41)
+	... 33 more
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.<init>(energyJourneyBionicStepDef.java:23)
+	... 38 more
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:31725/status] to be available after 20000 ms
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
+	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)
+	... 47 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	... 48 more
+&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI enter postcode "&amp#27;[0m&amp#27;[36m&amp#27;[1mHA85HF&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                      &amp#27;[90m# energyJourneyBionicStepDef.i_enter_postcode(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Start Quote&amp#27;[0m                                                                                                             &amp#27;[90m# energyJourneyBionicStepDef.i_click_Start_Quote()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter "&amp#27;[0m&amp#27;[36m&amp#27;[1m49&amp#27;[0m&amp#27;[36m" on search field&amp#27;[0m                                                                                                    &amp#27;[90m# energyJourneyBionicStepDef.i_enter_on_search_field(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mclick on the address contains "&amp#27;[0m&amp#27;[36m&amp#27;[1m49&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                              &amp#27;[90m# energyJourneyBionicStepDef.click_on_the_address_contains(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter Business Name "&amp#27;[0m&amp#27;[36m&amp#27;[1mJeevat LTD&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                              &amp#27;[90m# energyJourneyBionicStepDef.i_enter_Business_Name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Next from business name page&amp#27;[0m                                                                                            &amp#27;[90m# energyJourneyBionicStepDef.i_click_Next()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Electricity button&amp#27;[0m                                                                                                   &amp#27;[90m# energyJourneyBionicStepDef.i_click_on_Electricity_button()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Yes from industry data agreement page&amp#27;[0m                                                                                   &amp#27;[90m# energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click on Nex Step button&amp#27;[0m                                                                                                      &amp#27;[90m# energyJourneyBionicStepDef.i_click_on()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click I am not sure option&amp#27;[0m                                                                                                    &amp#27;[90m# energyJourneyBionicStepDef.click_i_am_not_sure()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Schedule for later (if on chat page)&amp#27;[0m                                                                                    &amp#27;[90m# energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter full name "&amp#27;[0m&amp#27;[36m&amp#27;[1mRavi Ahuja&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                  &amp#27;[90m# energyJourneyBionicStepDef.i_enter_full_name(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter email address "&amp#27;[0m&amp#27;[36m&amp#27;[1mtest@test.test&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                          &amp#27;[90m# energyJourneyBionicStepDef.i_enter_email_address(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter phone number "&amp#27;[0m&amp#27;[36m&amp#27;[1m07555555555&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                              &amp#27;[90m# energyJourneyBionicStepDef.i_enter_phone_number(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click Schedule call button&amp#27;[0m                                                                                                    &amp#27;[90m# energyJourneyBionicStepDef.clickscheduleCall()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Jul 22, 2020 11:17:14 PM org.openqa.selenium.os.OsProcess checkForError
+SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "C:\Users\ravi.ahuja\IdeaProjects\MavenEnergyJourneyBionic\src\main\resources\Linux_Driver\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
+]]></system-err>
+  </testcase>
+</testsuite>

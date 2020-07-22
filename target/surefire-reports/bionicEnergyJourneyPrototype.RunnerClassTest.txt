@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: bionicEnergyJourneyPrototype.RunnerClassTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 42.152 sec <<< FAILURE! - in bionicEnergyJourneyPrototype.RunnerClassTest
+Verify bionic electric journey(Verify UKP site scenarios)  Time elapsed: 21.191 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:11419/status] to be available after 20002 ms
+Caused by: java.util.concurrent.TimeoutException
+
+Verify bionic electric journey(Verify UKP site scenarios)  Time elapsed: 20.067 sec  <<< ERROR!
+cucumber.runtime.CucumberException: Failed to instantiate class bionicEnergyJourneyPrototype.energyJourneyBionicStepDef
+Caused by: java.lang.reflect.InvocationTargetException
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212-release'
+Driver info: driver.version: ChromeDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:31725/status] to be available after 20000 ms
+Caused by: java.util.concurrent.TimeoutException
+
