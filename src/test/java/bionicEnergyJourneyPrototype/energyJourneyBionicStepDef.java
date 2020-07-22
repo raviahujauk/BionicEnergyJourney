@@ -17,7 +17,7 @@ public class energyJourneyBionicStepDef {
     //For Linux + Headless browser
 //    /*
     static{
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/Linux_Driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "");
     }
     private ChromeOptions options = new ChromeOptions();
     private WebDriver driver = new ChromeDriver(options.addArguments(
