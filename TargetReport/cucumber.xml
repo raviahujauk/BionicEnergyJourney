@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="56.250904">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="28.339476">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="27.911428">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
