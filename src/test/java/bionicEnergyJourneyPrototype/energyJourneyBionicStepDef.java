@@ -11,11 +11,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class energyJourneyBionicStepDef {
 
     //For windown with head browser
-    //static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
-    //private WebDriver driver = new ChromeDriver();
+    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    private WebDriver driver = new ChromeDriver();
 
     //For Linux + Headless browser
-//    /*
+    /*
     static{
         System.setProperty("webdriver.chrome.driver", "chromedriver");
     }
@@ -29,7 +29,7 @@ public class energyJourneyBionicStepDef {
             "--disable-gpu",
             "--ignore-certificate-errors",
             "--disable-setuid-sandbox"));
-//    */
+    */
 
 
     private bionicEnergyJourneyLandingPage bejlp = new bionicEnergyJourneyLandingPage(driver);
