@@ -27,7 +27,8 @@ jobs:
       with:
         path: "**/TargetReport/cucumber.json"
 
-    - name: slack - GitHub Actions Slack integration
-      uses: act10ns/slack@v1.0.9
+    - name: Slack Notification
+      uses: bryannice/gitactions-slack-notification@1.1.0
       env:
-        SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
+          SLACK_WEBHOOK: 'https://hooks.slack.com/services/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'
+ 
