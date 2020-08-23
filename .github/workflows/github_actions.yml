@@ -29,12 +29,9 @@ jobs:
         path: "**/TargetReport/cucumber.json"
       
     - name: Slack Notification
-      uses: homoluctus/slatify@master
-      if: always()
+      uses: tokorom/action-slack-incoming-webhook@master
+      env:
+        INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
       with:
-        type: ${{ job.status }}
-        job_name: '*Lint Check*'
-        mention: 'here'
-        mention_if: 'failure'
-        url: ${{ secrets.SLACK_WEBHOOK }}
+        text: Hello, Slack!
 
