@@ -28,8 +28,13 @@ jobs:
         access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json"
       
-    - uses: actions/checkout@v2
     - name: Slack Notification
-      uses: rtCamp/action-slack-notify@master
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      uses: homoluctus/slatify@master
+      if: always()
+      with:
+        type: ${{ job.status }}
+        job_name: '*Lint Check*'
+        mention: 'here'
+        mention_if: 'failure'
+        url: ${{ secrets.SLACK_WEBHOOK }}
+
