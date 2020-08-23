@@ -30,4 +30,4 @@ jobs:
     - name: slack - GitHub Actions Slack integration
       uses: act10ns/slack@v1.0.9
       env:
-        SLACK_WEBHOOK_URL: "https://hooks.slack.com/workflows/316543099805380775"
+        SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
