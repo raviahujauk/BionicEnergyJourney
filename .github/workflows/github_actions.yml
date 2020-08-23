@@ -26,9 +26,7 @@ jobs:
       uses: deblockt/cucumber-report-annotations-action@v1.6
       with:
         path: "**/TargetReport/cucumber.json"
+      
+    - name: GitHub Repository Activity Action
+      uses: ros-tooling/action-repository-activity@0.0.1
 
-    - name: Slack Notification
-      uses: bryannice/gitactions-slack-notification@1.1.0
-      env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
- 
