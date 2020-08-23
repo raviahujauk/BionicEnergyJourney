@@ -22,7 +22,6 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - uses: deblockt/cucumber-report-annotations-action@v1.6
-      with:
-        access-token: ${{ secrets.cfff0f733cff9174d7bcca286c98f01d63caf0cc }}
-        path: "**/cucumber-report.json"
+    - name: Cucumber Report to Annotations
+      uses: deblockt/cucumber-report-annotations-action@v1.6
+
