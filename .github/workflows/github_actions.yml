@@ -25,7 +25,7 @@ jobs:
     - name: Cucumber Report to Annotations
       uses: deblockt/cucumber-report-annotations-action@v1.6
       with:
-        access-token: ${{ secrets.API }}
+        access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json"
       
     - name: GitHub Repository Activity Action
