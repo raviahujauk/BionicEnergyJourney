@@ -32,5 +32,5 @@ jobs:
     - uses: SeanReece/pr-reporter-slack@v1
       with: 
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
+        slack-webhook: "zvppFjYfbTY7UsUNZzaN7O9a"
 
