@@ -27,6 +27,10 @@ jobs:
       with:
         access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json"
+        check-status-on-error: 'success'
+        description: "the check status to use on cucumber error. Can be 'success', 'neutral' or 'failure'"
+        required: true
+        default: 'failure'
       
     - name: Notify
       uses: innocarpe/actions-slack@v1
