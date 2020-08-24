@@ -28,10 +28,9 @@ jobs:
         access-token: ${{ secrets.GITHUB_TOKEN }}
         path: "**/TargetReport/cucumber.json"
       
-    - name: Slack Notification
-      uses: tokorom/action-slack-incoming-webhook@master
-      env:
-        INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
-      with:
-        text: Hello, Slack!
+    - uses: actions/checkout@v1
+    - uses: SeanReece/pr-reporter-slack@v1
+      with: 
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        slack-webhook: ${{ secrets.SLACK_WEBHOOK }}
 
