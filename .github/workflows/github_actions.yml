@@ -31,7 +31,7 @@ jobs:
     - name: Notify
       uses: innocarpe/actions-slack@v1
       with:
-        status: ${{ check-status-on-error }} # Required
+        status: ${{ job.status }} # Required
         success_text: 'Step Succeeded 🚀' # Optional
         failure_text: 'Step Failed 😱' # Optional
         cancelled_text: 'Step Cancelled ⚠️' # Optional
